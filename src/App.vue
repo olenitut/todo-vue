@@ -1,7 +1,8 @@
 <script>
 import TodoItem from './components/ItemTodo.vue'
 import TodoForm from './components/FormTodo.vue'
-import todos from '../data/todos'
+
+const todos = []
 
 export default {
   name: 'app',
