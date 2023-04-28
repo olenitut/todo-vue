@@ -20,7 +20,7 @@ export default {
   methods: {
     addTodo(toDotitle) {
       this.todos.push({
-        id: this.todos[this.todos.length - 1].id + 1,
+        id: Date.now(),
         title: toDotitle,
         done: false
       })
